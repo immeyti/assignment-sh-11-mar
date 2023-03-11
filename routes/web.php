@@ -13,4 +13,6 @@
 |
 */
 
-$router->get('/', 'DistanceController');
+$router->group(['prefix' => '/api'], function () use ($router){
+    $router->get('/calculate', 'CalculateController@sum');
+});
