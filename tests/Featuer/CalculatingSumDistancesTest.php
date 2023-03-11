@@ -4,16 +4,8 @@ namespace Tests\Feature;
 
 use Tests\TestCase;
 
-use Laravel\Lumen\Testing\DatabaseMigrations;
-use Laravel\Lumen\Testing\DatabaseTransactions;
-
 class CalculatingSumDistancesTest extends TestCase
 {
-    /**
-     * A basic test example.
-     *
-     * @return void
-     */
     public function testShouldCalculateTotalDistanceInUserSpecifiedUnit()
     {
         $dataProvider = [
