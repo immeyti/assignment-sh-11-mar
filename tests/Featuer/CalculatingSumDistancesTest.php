@@ -21,12 +21,12 @@ class CalculatingSumDistancesTest extends TestCase
                 'params' => [
                     'distance1' => 3,
                     'distance1_unit' => 'Yards',
-                    'distance1' => 32,
-                    'distance1_unit' => 'Meters',
+                    'distance2' => 32,
+                    'distance2_unit' => 'Meters',
                     'outputUnit' => 'Meters'
                 ],
                 'expected' => [
-                    'total' => 34.7432,
+                    'total' => 34.74,
                     'unit' => 'Meters'
                 ]
             ],
@@ -34,12 +34,12 @@ class CalculatingSumDistancesTest extends TestCase
                 'params' => [
                     'distance1' => 4,
                     'distance1_unit' => 'Yards',
-                    'distance1' => 2,
-                    'distance1_unit' => 'Meters',
+                    'distance2' => 2,
+                    'distance2_unit' => 'Meters',
                     'outputUnit' => 'Meters'
                 ],
                 'expected' => [
-                    'total' => 5.6576,
+                    'total' => 5.66,
                     'unit' => 'Meters'
                 ]
             ],
@@ -47,12 +47,12 @@ class CalculatingSumDistancesTest extends TestCase
                 'params' => [
                     'distance1' => 4,
                     'distance1_unit' => 'Yards',
-                    'distance1' => 2,
-                    'distance1_unit' => 'Meters',
-                    'outputUnit' => 'Meters'
+                    'distance2' => 2,
+                    'distance2_unit' => 'Meters',
+                    'outputUnit' => 'Yards'
                 ],
                 'expected' => [
-                    'total' => 6.1872266,
+                    'total' => 6.19,
                     'unit' => 'Yards'
                 ]
             ]
